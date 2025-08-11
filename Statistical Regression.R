@@ -1,4 +1,4 @@
-# Assignment 2: Statistical Modeling in R
+# Statistical Modeling in R
 # Install.packages("ggplot2")
 # Load libraries
 library(datasets)
@@ -82,10 +82,3 @@ plot(roc_curve)
 # 4. Interpretation
 # Inspect the coefficients (log-odds) and their significance
 summary(logit_model)
-
-
-
-
-
-
-

@@ -1,11 +1,8 @@
 # R-Linear-Logistic-Regression
-# MTCars & Titanic Regression Analysis in R
-
 This project demonstrates statistical modeling in R using two well-known datasets: **mtcars** and **Titanic**.  
 It covers both **linear regression** and **logistic regression**, including model diagnostics, performance evaluation, and visualization.
 
----
-
+# MTCars & Titanic Regression Analysis in R
 ## Objectives
 
 ### Part 1: Linear Regression (mtcars dataset)

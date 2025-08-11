@@ -27,6 +27,19 @@ It covers both **linear regression** and **logistic regression**, including mode
    <img width="1062" height="506" alt="image" src="https://github.com/user-attachments/assets/bf676880-17db-4fa3-9822-99eeea0e9eef" />
 
 ---
+## Results & Interpretations
+
+### Linear Regression (mtcars)
+- **Weight** (`wt`) had the strongest negative impact on MPG (-4.36 mpg per unit increase, p < 0.001).  
+- **Horsepower** (`hp`) and **Quarter Mile Time** (`qsec`) were not statistically significant predictors.  
+- Model explains 83% of variance (Adjusted R² = 0.8171).  
+
+### Logistic Regression (Titanic)
+- **Sex** was the strongest survival predictor — females had ~11x higher odds of survival.  
+- **Passenger Class** showed a strong effect: 2nd and 3rd class passengers had much lower odds compared to 1st class.  
+- **Adults** had lower odds of survival than children (odds ratio ~0.35).  
+- Accuracy: ~77%, with ROC curve showing good discrimination ability.
+---
 
 ## Tools & Libraries Used
 - **R base packages**

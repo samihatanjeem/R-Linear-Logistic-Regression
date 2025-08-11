@@ -35,7 +35,7 @@ It covers both **linear regression** and **logistic regression**, including mode
 - Model explains 83% of variance (Adjusted R² = 0.8171).  
 
 ### Logistic Regression (Titanic)
-- **Sex** was the strongest survival predictor — females had ~11x higher odds of survival.  
+- **Sex** was the strongest survival predictor - females had ~11x higher odds of survival.  
 - **Passenger Class** showed a strong effect: 2nd and 3rd class passengers had much lower odds compared to 1st class.  
 - **Adults** had lower odds of survival than children (odds ratio ~0.35).  
 - Accuracy: ~77%, with ROC curve showing good discrimination ability.
